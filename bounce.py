@@ -10,7 +10,7 @@ def get_servos():
     except(ValueError): 
         print("Invalid input.\n")
         get_servos()
-    return servos-1
+    return servos
 servos = get_servos()
 while True:
     print("Setting angle {}".format(angle))
